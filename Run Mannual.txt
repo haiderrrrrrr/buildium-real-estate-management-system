@@ -1,0 +1,30 @@
+FOR DATABASE:
+1. Install Oracle Dataabse 11g Express Edition
+2. Install SQL Developer and ten make a Local user in its
+3. In sql developer, open sql worksheet and run these commands
+	a) CREATE USER moon IDENTIFIED BY Haiderch6072;
+	b) GRANT DBA TO moon;
+4. Import the Dump File by going to its location and then by running this command on Terminal
+	a)imp system/"Haiderch6072!" FILE=H:\db_moon_bkp_07_20.dmp FULL=Y LOG=import_log.log	
+
+
+
+FOR API Manager(Backend):
+1. Open cmd as Administrator and run this command for ojdbc : mvn install:install-file -Dfile="F:\ojdbc7.jar" -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.1 -Dpackaging=jar
+2. Update this in the Project pom.xml File <dependency>
+    <groupId>com.oracle</groupId>
+    <artifactId>ojdbc7</artifactId>
+    <version>12.1.0.1</version>
+</dependency>
+
+
+FOR ADMIN AND CLIENT APP(Frontend):
+1. Intall Node js version 10.18.0 from Official Website website
+2. Install Angular CLI in Power Shell by this command "npm install -g @angular/cli@6.1.1" and check 
+its version by "ng --version"
+3. Now Open the Folders in cmd and run this command "npm install"
+4. And then run run this command "ng serve"
+	a) For Client App run this Command "ng serve"
+	b) For Admin App run this Command "ng serve --port 4201"
+
+

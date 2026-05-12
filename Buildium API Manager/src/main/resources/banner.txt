@@ -1,0 +1,14 @@
+${AnsiColor.BRIGHT_BLACK}
+
+--------------------------------------------------------------------------
+                       ╔══════════════════════════╗
+                       ║      B U I L D I U M     ║
+                       ║   S W A G G E R   A P I  ║
+                       ╚══════════════════════════╝
+
+--------------------------------------------------------------------------
+Application Name : Buildium Real Estate Management System
+Application Version : Version 1
+Developed By: Haider Ali
+--------------------------------------------------------------------------
+${Ansi.DEFAULT}
